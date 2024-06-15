@@ -1,0 +1,14 @@
+DEBUG:asyncio:2024-06-15 18:12:02,881:::Using proactor: IocpProactor
+INFO:root:2024-06-15 18:12:03,052:::Bot Started.
+INFO:root:2024-06-15 18:12:03,052:::Bot Name: armanai_bot	Bot Username: @armanai_bot	Bot User ID: 1636211528
+INFO:aiogram.dispatcher:2024-06-15 18:12:03,052:::Start polling
+INFO:aiogram.dispatcher:2024-06-15 18:12:03,082:::Run polling for bot @armanai_bot id=1636211528 - 'armanai_bot'
+ERROR:aiogram.dispatcher:2024-06-15 18:23:00,809:::Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+WARNING:aiogram.dispatcher:2024-06-15 18:23:00,812:::Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 1636211528)
+ERROR:aiogram.dispatcher:2024-06-15 18:23:01,811:::Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host tapi.bale.ai:443 ssl:default [getaddrinfo failed]
+WARNING:aiogram.dispatcher:2024-06-15 18:23:01,811:::Sleep for 1.268112 seconds and try again... (tryings = 1, bot id = 1636211528)
+INFO:aiogram.dispatcher:2024-06-15 18:23:03,730:::Connection established (tryings = 2, bot id = 1636211528)
+INFO:aiogram.dispatcher:2024-06-15 18:25:24,897:::Polling stopped
+ERROR:aiogram.dispatcher:2024-06-15 18:25:24,929:::Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2685)
+WARNING:aiogram.dispatcher:2024-06-15 18:25:24,931:::Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 1636211528)
+INFO:aiogram.dispatcher:2024-06-15 18:25:25,192:::Polling stopped for bot @armanai_bot id=1636211528 - 'armanai_bot'
