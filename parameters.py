@@ -8,14 +8,22 @@ load_dotenv(find_dotenv())
 
 # Defines
 TOKEN: Final = os.getenv("BOT_TOKEN")
-LOG_FILE: Final = ".log"
+LOG_FILE: Final = "logfile.log"
 
-with open(LOG_FILE, 'w') as f:
+try:
+    with open(os.getcwd() + "/" + LOG_FILE, 'w') as f:
+        pass
+except:
     pass
 
-logging.basicConfig(
-    filename=LOG_FILE,
-    filemode="a",
-    format="%(levelname)s:%(name)s:%(asctime)s:::%(message)s",
-    level=logging.NOTSET,
-)
+try:
+    logging.basicConfig(
+        filename=LOG_FILE,
+        filemode="a",
+        format="%(levelname)s:%(name)s:%(asctime)s:::%(message)s",
+        level=logging.NOTSET,
+    )
+except:
+    logging.basicConfig(
+        level=logging.NOTSET,
+    )

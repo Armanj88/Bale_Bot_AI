@@ -1,0 +1,9 @@
+DEBUG:asyncio:2024-06-15 19:03:37,734:::Using proactor: IocpProactor
+INFO:root:2024-06-15 19:03:38,788:::Bot Started.
+INFO:root:2024-06-15 19:03:38,788:::Bot Name: armanai_bot	Bot Username: @armanai_bot	Bot User ID: 1636211528
+INFO:aiogram.dispatcher:2024-06-15 19:03:38,788:::Start polling
+INFO:aiogram.dispatcher:2024-06-15 19:03:39,049:::Run polling for bot @armanai_bot id=1636211528 - 'armanai_bot'
+INFO:aiogram.dispatcher:2024-06-15 19:03:40,195:::Polling stopped
+ERROR:aiogram.dispatcher:2024-06-15 19:03:40,309:::Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2685)
+WARNING:aiogram.dispatcher:2024-06-15 19:03:40,309:::Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 1636211528)
+INFO:aiogram.dispatcher:2024-06-15 19:03:40,432:::Polling stopped for bot @armanai_bot id=1636211528 - 'armanai_bot'
